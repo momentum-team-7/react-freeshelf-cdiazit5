@@ -1,15 +1,30 @@
+* {
+    padding: 5px
+}
+
+.header {
+    align-self: center;
+}
+
+
 img {
     width: 300px;
     height: 400px;
 }
 
-/* .container {
+.container {
     display: flex;
-} */
+}
 
 .book-info {
+    display: flex;
     border: 2px solid red;
     padding-bottom: 10px;
-    width: 500px;
-    height: 700px;
+    margin: 12px;
+    width: 800px;
+    height: fit-content;
+}
+
+.book-image {
+    padding-left: 20px;
 }

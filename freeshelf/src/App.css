@@ -1,12 +1,30 @@
-/* * {
-    padding: 5px
-} */
+.react-root {
+    background-color: #8ee4af;
+}
+
+
+.content {
+    background-color: #EDF5E1;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 8px outset #05386B;
+}
 
 .header {
-    display: block;
     margin: auto;
     width: 50%;
+    color:#05386B;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: larger;
 }
+
+/* .freeshelf {
+    font-style: #05386B;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 
 img {
@@ -20,12 +38,13 @@ img {
 
 .book-info {
     display: flex;
-    border: 8px outset teal;
+    border: 2px dotted #05386B;
     border-radius: 15px;
     padding-bottom: 10px;
     margin: 12px;
     width: fit-content;
     height: fit-content;
+    /* background-color: #950740; */
 }
 
 .book-text {
@@ -37,5 +56,7 @@ b {
 }
 .book-image {
     padding-left: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
